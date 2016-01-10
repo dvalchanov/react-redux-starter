@@ -1,4 +1,4 @@
-# 2048 - Implemented with React and Redux
+# React and Redux starter
 
 * [Setup](#setup)
 * [Usage](#usage)
@@ -6,8 +6,6 @@
   * [debug](#debug)
   * [lint](#lint)
   * [build](#build)
-
-If you want to play with it, you can check the [DEMO](http://dvalchanov.github.io/react-redux-2048/)
 
 ## Setup
 
