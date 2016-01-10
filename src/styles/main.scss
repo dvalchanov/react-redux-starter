@@ -1,0 +1,18 @@
+@import "reset";
+
+body {
+}
+
+/*
+ * Local
+ * Import and set as `className`
+ * For more info: https://github.com/css-modules/css-modules
+ */
+.wrapper {}
+
+/*
+ * Global (Standard usage)
+ */
+:global {
+}
+
