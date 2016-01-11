@@ -5,7 +5,7 @@ import thunk from "redux-thunk";
 
 import {createStore, renderDevTools} from "js/utils/devTools";
 import reducers from "js/reducers";
-import Game from "./Game";
+import App from "./App";
 
 /**
  * Compose a new store from the passed reducers and apply a thunk middleware.
@@ -23,7 +23,7 @@ export default class Root extends Component {
     return (
       <div>
         <Provider store={store}>
-          <Game />
+          <App />
         </Provider>
         {renderDevTools(store)}
       </div>

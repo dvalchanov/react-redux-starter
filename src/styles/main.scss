@@ -1,8 +1,5 @@
 @import "reset";
 
-body {
-}
-
 /*
  * Local
  * Import and set as `className`
@@ -14,5 +11,6 @@ body {
  * Global (Standard usage)
  */
 :global {
+  .wrapper {}
 }
 
