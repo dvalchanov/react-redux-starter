@@ -28,9 +28,17 @@ config.output = {
  */
 config.plugins = config.commonPlugins.concat([
   definePlugin,
+
+  /**
+   * Extract all css into one file.
+   */
   new ExtractTextPlugin("[name].min.css", {
     allChunks: true
   }),
+
+  /**
+   * Extract all vendor files into a separate file than the our application files.
+   */
   new webpack.optimize.CommonsChunkPlugin({
     name: "vendor",
     path: "[name].min.js",
@@ -38,8 +46,20 @@ config.plugins = config.commonPlugins.concat([
       return module.resource && module.resource.indexOf(path.resolve('node_modules')) !== -1;
     }
   }),
+
+  /**
+   * Check the occurence of modules and assign respective ids.
+   */
   new webpack.optimize.OccurenceOrderPlugin(true),
+
+  /**
+   * Deduplicate similar code in the output files.
+   */
   new webpack.optimize.DedupePlugin(),
+
+  /**
+   * Uglify the end files by following the passed options.
+   */
   new webpack.optimize.UglifyJsPlugin({
     compress: {
       warnings: false
