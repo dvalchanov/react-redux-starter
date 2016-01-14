@@ -1,5 +1,12 @@
 import {Component} from "react";
 
+/**
+ * Ideas for app:
+ *  - list of best colour schemes
+ *  - list of cool colours that can be combined together
+ *  - ?
+ */
+
 const styles = {
   container: {
     backgroundColor: "blue"
