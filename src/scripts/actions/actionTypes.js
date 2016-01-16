@@ -5,4 +5,7 @@ import {generateActions} from "js/utils/actions";
  */
 const actions = [];
 
+/**
+ * Export generated actions.
+ */
 export default generateActions(actions);

@@ -1,6 +1,9 @@
 import {Map} from "immutable";
 import actionTypes from "js/actions/actionTypes";
 
+/**
+ * Initial state to for this reducer.
+ */
 const initialState = Map();
 
 /**
