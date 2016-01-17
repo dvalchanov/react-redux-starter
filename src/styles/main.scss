@@ -11,6 +11,33 @@
  * Global (Standard usage)
  */
 :global {
-  .wrapper {}
+  body {
+    background: #271033;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: "Geneva";
+    color: white;
+    font-size: 32px;
+    line-height: 72px;
+  }
+
+  ul {
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      flex: 1 0 200px;
+      margin-bottom: 20px;
+      margin-left: 10px;
+      height: 140px;
+      box-sizing: border-box;
+      border: 1px solid white;
+      border-radius: 10px;
+    }
+  }
 }
 

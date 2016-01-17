@@ -16,7 +16,7 @@ import * as Actions from "js/actions/actions";
  *
  * Return specific states/values to use in the component.
  */
-@connect(state => {
+@connect(() => {
   return {};
 })
 export default class App extends Component {
@@ -58,7 +58,22 @@ export default class App extends Component {
   render() {
     return (
       <main>
-        <h1>Hello world!</h1>
+        <h1>Color Schemes</h1>
+
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </main>
     );
   }
