@@ -35,9 +35,17 @@
       margin-left: 10px;
       height: 140px;
       box-sizing: border-box;
-      border: 1px solid white;
+      /*border: 1px solid white;*/
       border-radius: 10px;
     }
+  }
+
+  .blue {
+    background-color: #2980b9;
+  }
+
+  .red {
+    background-color: #e74c3c;
   }
 }
 

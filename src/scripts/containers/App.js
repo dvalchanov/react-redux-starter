@@ -60,9 +60,11 @@ export default class App extends Component {
       <main>
         <h1>Color Schemes</h1>
 
+        // Click to copy
+
         <ul>
-          <li></li>
-          <li></li>
+          <li className="blue"></li>
+          <li className="red"></li>
           <li></li>
           <li></li>
           <li></li>
