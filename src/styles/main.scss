@@ -31,12 +31,13 @@
 
     li {
       flex: 1 0 200px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       margin-left: 10px;
       height: 140px;
       box-sizing: border-box;
       /*border: 1px solid white;*/
       border-radius: 10px;
+      cursor: pointer;
     }
   }
 
@@ -46,6 +47,10 @@
 
   .red {
     background-color: #e74c3c;
+  }
+
+  .green {
+    background-color: #03C9A9;
   }
 }
 
